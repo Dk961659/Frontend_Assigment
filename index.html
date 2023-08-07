@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>UI Pair Page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main">
+        <p style="color: mediumseagreen; font-size: 1rem;font-weight: 500;">----------Bundle & Save---------</p>
+          <!-- first container -->
+        <div class="first">
+          <input type="radio" name="pair" id="pair1" value="pair1" />
+          <div>
+            <label for="pair">Pair 1</label><br />
+            <span>DKK 195.00</span>
+          </div>
+
+          <span>50% OFF</span>
+
+          <!--  this size and color code -->
+          <div id="sizeColorOptions" style="display: none">
+            <div id="sizes">
+              <h4>Size</h4>
+
+              
+              <select id="size">
+                <option value="S">S</option>
+              </select>
+            </div>
+
+            <div id="sizes">
+              <h4>Color</h4>
+              <select id="color">
+                <option value="Colour">Colour</option>
+              </select>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- this is second container -->
+        <div class="second">
+          <input type="radio" name="pair" id="pair2" value="pair2" />
+          <div>
+            <label for="pair">Pair 2</label><br />
+            <span>DKK 345.00</span>
+          </div>
+          <span
+            style="
+              text-decoration: line-through;
+              margin-top: 20px;
+              font-size: small;
+            "
+            >DKK 195.00</span
+          >
+          <div>
+            <p style="color: mediumseagreen">Most Popular</p>
+            <span>40% OFF</span>
+          </div>
+
+          <!-- this section size and color code -->
+          <div id="size2ColorOptions" style="display: none">
+            <div id="sizes">
+              <h4>Size</h4>
+
+              <!-- <span>#1</span> -->
+              <select id="size">
+                <option value="S">S</option>
+              </select>
+              <!-- <span>#2</span> -->
+              <select id="size">
+                <option value="S">S</option>
+              </select>
+            </div>
+
+            <div id="sizes">
+              <h4>Color</h4>
+              <select id="color">
+                <option value="Colour">Colour</option>
+              </select>
+              <select id="color">
+                <option value="Colour">Colour</option>
+              </select>
+            </div>
+          </div>
+        </div>
+<!--  this is third section  -->
+        <div class="third">
+          <input type="radio" name="pair" id="pair3" value="pair3" />
+          <div>
+            <label for="pair">Pair 3</label><br />
+
+            <span>DKK 528.00</span>
+          </div>
+          <span>60% OFF</span>
+<!-- this is the size and color code started -->
+          <div id="size3ColorOptions" style="display: none">
+            <div id="sizes">
+              <h4>Size</h4>
+
+          
+              <select id="size">
+                <option value="S">S</option>
+              </select>
+             
+              <select id="size">
+                <option value="S">S</option>
+              </select>
+              
+              <select id="size">
+                <option value="S">S</option>
+              </select>
+            </div>
+
+            <div id="sizes">
+              <h4>Color</h4>
+              <select id="color">
+                <option value="Colour">Colour</option>
+              </select>
+              <select id="color">
+                <option value="Colour">Colour</option>
+              </select>
+              <select id="color">
+                <option value="Colour">Colour</option>
+              </select>
+            </div>
+          </div>
+        </div>
+     <!-- this is footer or button section is started. -->
+        <div class="total-value">
+          <a href="#">Free 2 Day Shopping</a>
+          <p>Total:DKK 360.00</p>
+        </div>
+        <button class="btn" onclick="">+ Add to Cart</button>
+        <p class="copyright">&copy;Powered by Pumper</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
